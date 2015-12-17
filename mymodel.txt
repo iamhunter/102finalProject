@@ -1,0 +1,86 @@
+camera cam1
+{
+  pixeldim  800 600
+  worlddim  8 6
+  viewpoint 4 3 3
+}
+
+material steelblue
+{
+   ambient 0  3 4.5
+   diffuse 0 4 3
+   
+}
+
+material yellow
+{
+   ambient  5  4 0
+   diffuse 2 0 6
+}
+material purple
+{
+   ambient 7 -3 6
+}   
+material red
+{
+   ambient 2 -3 .5
+}   
+material green
+{
+   ambient 0  5 0
+}
+
+plane backwall
+{
+   material purple
+   normal 0 0  1
+   point  1 0 -4
+}
+sphere center
+{
+   material steelblue
+   center 4 0 -3
+   radius 2
+}
+sphere center
+{
+   material steelblue
+   center 8 4 -3
+   radius 2
+}
+sphere center
+{
+   material steelblue
+   center 0 4 -3
+   radius 2
+}
+sphere center
+{
+   material red
+   center 0 3 -3
+   radius 5
+}
+sphere center
+{
+   material red
+   center 8 3 -3
+   radius 5
+}
+plane leftwall
+{
+   material yellow
+   normal 3 0 1
+   point  0 0 0
+}
+plane rightwall
+{
+   material yellow
+   normal -3 0 1
+   point   7  0 -3
+}
+plane floor
+{
+   material green
+   normal 0 1 0
+   point 0 -0.2 0
+}

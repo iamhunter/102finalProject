@@ -1,0 +1,111 @@
+camera cam1
+{
+  pixeldim  640 480
+  worlddim  8 6
+  viewpoint 4 3 4
+}
+
+material gray
+{
+   diffuse 7  7 7
+}
+
+material green
+{
+   diffuse 0  5 0
+   ambient 0  2 0
+}
+
+material yellow
+{
+   diffuse 2 2 2
+}
+material red
+{
+   diffuse 4.0 1.5 1.5
+   specular 1.0
+}
+
+
+plane floor
+{
+   material gray
+   normal 0 1 0
+   point  0 0 0
+}
+
+light ceiling
+{
+   emissivity 5 3 3
+   location 4 8 -4
+}
+
+light front
+{
+   emissivity 3 3 3
+   location 4 8  2
+}
+
+sphere left
+{
+   material red
+   center  2 3 -4
+   radius 1.0
+}
+triangle right
+{
+   material red
+  v0 0 0 -4
+  v1 4 3 -4
+  v2 0 5 -4
+}
+sphere upper
+{
+   material red
+   center  4 5 -4
+   radius 0.75
+}
+material white
+{
+   diffuse 5 5 5
+   ambient 2 2 2
+}
+
+material green
+{
+   diffuse 0  5 0
+   ambient 0  2 0
+}
+
+material yellow
+{
+   diffuse 5 5 0
+}
+
+fplane center
+{
+   material yellow
+   normal 0 1 1
+   point  1 0 -3
+   xdir   1 0 0
+   dimensions 6 3
+}
+
+light center_red
+{
+   location 4 8 -2
+   emissivity 5 1 1
+}
+
+light left_blue
+{
+   location 2 8 0
+   emissivity 1 1 5
+}
+
+light right_green
+{
+   location 6 8 0
+   emissivity 1 5 1
+}
+

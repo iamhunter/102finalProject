@@ -1,0 +1,13 @@
+/—— Greg Francis and Andrew Hunter ———\
+\———————— gfranci and ahunte3 ————————/
+/———— Clemson University CPSC 1020 ———\
+\——— Major Programming Assignment 3 ——/
+/————————— The Final Project —————————\
+\————————— November 24, 2015 —————————/
+
+Working Features:
+(1) Ambient lighting with planes & spheres
+(2) Diffuse lighting with shadows
+(3) Triangle
+(6) Finite Plane
+(13) mymodel.txt

@@ -1,0 +1,30 @@
+camera cam1
+{
+  pixeldim  800 600
+  worlddim  8 6
+  viewpoint 4 3 3
+}
+
+material steelblue
+{
+   ambient 0  3 4.5
+}
+
+material yellow
+{
+   ambient  5  4 0
+}
+
+sphere center
+{
+   material steelblue
+   center 4 1 -6
+   radius 5
+}
+
+material gray
+{
+   ambient 2.5 3.5 2.5
+}
+
+
